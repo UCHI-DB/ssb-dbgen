@@ -8,9 +8,9 @@ CC      = gcc
 # Current values for MACHINE are:  ATT, DOS, HP, IBM, ICL, MVS, 
 #                                  SGI, SUN, U2200, VMS, LINUX
 # Current values for WORKLOAD are:  SSBM, TPCH, TPCR
-DATABASE=DB2 
-MACHINE =MAC
-WORKLOAD =SSBM 
+DATABASE=TDAT
+MACHINE =LINUX
+WORKLOAD =SSBM
 #
 # add -EDTERABYTE if orderkey will execeed 32 bits (SF >= 300)
 # and make the appropriate change in gen_schema() of runit.sh
